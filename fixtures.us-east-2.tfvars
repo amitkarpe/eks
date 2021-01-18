@@ -2,13 +2,13 @@ region = "us-east-1"
 
 availability_zones = ["us-east-1a", "us-east-1b"]
 
-namespace = "eg"
+#namespace = "eg"
 
-stage = "test"
+#stage = "test"
 
 name = "eks"
 
-kubernetes_version = "1.17"
+kubernetes_version = "1.18"
 
 oidc_provider_enabled = true
 
@@ -18,11 +18,11 @@ cluster_log_retention_period = 7
 
 instance_types = ["t3.small"]
 
-desired_size = 4
+desired_size = 2
 
-max_size = 8
+max_size = 2
 
-min_size = 4
+min_size = 2
 
 disk_size = 20
 
