@@ -1,6 +1,6 @@
 # eks
 
-This projects is based on Module for AWS EKS from [terraform-aws-eks](https://github.com/cloudposse/terraform-aws-eks)
+This projects is based on Module for AWS EKS from [terraform-aws-eks](https://github.com/cloudposse/terraform-aws-eks) by [cloudposse](https://github.com/cloudposse)
 
 Need to set various input vaiables in `terraform.tfvars`.
 
