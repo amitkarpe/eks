@@ -18,11 +18,11 @@ cluster_log_retention_period = 7
 
 instance_types = ["t3.small"]
 
-desired_size = 4
+desired_size = 2
 
 max_size = 8
 
-min_size = 4
+min_size = 2
 
 disk_size = 20
 

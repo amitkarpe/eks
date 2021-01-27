@@ -59,7 +59,7 @@ module "subnets" {
 
 
 module "eks_cluster" {
-  source = "../../"
+  source = "git::https://github.com/cloudposse/terraform-aws-eks-cluster.git?ref=tags/0.30.2"
 
   region                       = var.region
   vpc_id                       = module.vpc.vpc_id
